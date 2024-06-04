@@ -1,0 +1,1071 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 400px;
+}
+
+/*menu*/
+.menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    background-image: url(../IMG/banner.png);
+    
+    
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 40px;
+    width: 100%;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    border: 3px solid re;
+   
+}
+a{
+    text-decoration: none;
+}
+
+.divisao1{
+    width: 100%;
+    height: 1100px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 135px;
+    margin-top: -25px;
+    position:absolute;
+}
+
+.banner{
+    color: rgb(255, 255, 255);
+    font-size: 130px;
+    width: 100%;
+    margin-top: 400px;
+    height: 350px;
+    position: absolute;
+}
+
+.sla{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1000px;
+    height: 100px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.sla input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Bairro{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1300px;
+    height: 200px;
+    position: absolute;
+    margin-left: 212px;
+}
+
+.Bairro input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Estado{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 212px;
+}
+
+.Estado input{
+    width: 680px;
+    height: 60px;
+    font-size: 30px;
+    border: solid black;
+}
+
+.selEstado {
+    width: 675px;
+    height: 60px;
+    border: solid black;
+    font-size: 15px;
+}
+.pai {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 400px;
+}
+
+.container-filhas {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding-bottom: 10px; /* Prevents scrollbar overlap with content */
+    
+    
+}
+
+.filha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 23%;
+    box-sizing: border-box;
+    text-align: left;
+    flex: 0 0 auto; /* Ensures items do not shrink */
+    z-index: 100;
+}
+
+.filha img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filha .imagem-texto {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.filha .imagem-texto img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+.filha .imagem-texto p {
+    margin: 0;
+}
+
+.filha h2 {
+    margin-top: 20px;
+}
+
+.preço {
+    font-size: 80%;
+    text-decoration: line-through;
+}
+.main-container {
+    width: 77%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0086FF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: white;
+    font-size: 80%;
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .left-section img {
+        max-width: 80px;
+        margin-right: 20px;
+    }
+
+    .text-content {
+        text-align: left;
+    }
+
+    .right-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-bar {
+        margin-right: 10px;
+    }
+
+    .search-bar input {
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 2px solid white;
+        height: 30px;
+        width: 300px;
+    }
+
+    .search-bar button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .button {
+        height: 45px;
+        width: 100px;
+        border-radius: 5px;
+        border: 2px solid#e5e5e5;
+    }
+
+    main {
+        max-width: 1600px;
+        padding: 150px;
+        text-align: justify;
+        font-size: 25px;
+        margin: 30 auto; /* Centraliza horizontalmente */
+        display: flex; /* Ativa o modelo de layout flexível */
+        flex-direction: column; /* Coloca os itens em uma coluna */
+        height: calc(100vh - 100px); /* Altura igual à altura da janela - altura do cabeçalho */
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .frango {
+        
+        display: flex;
+        padding: 150px;
+        flex-direction: row-reverse;
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: rgb(175, 116, 27);
+        padding: 5px;
+        margin: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 30px;
+        
+        
+        
+        }
+        
+        .divisao1{
+            width: 100%;
+            height: 1150px;
+            
+           
+        }
+
+        .divisao2{
+            width: 100%;
+            height: 900px;
+            
+            
+        }
+
+        .divisao3{
+            width: 100%;
+            height: 1600px;
+            
+        }
+
+        .divisao4 {
+            width: 100%;
+            height: auto; /* Ajuste a altura conforme necessário */
+            text-align: center; /* Alinhar o conteúdo no centro */
+        }
+        
+        .contact-info {
+            display: inline-block; /* Exibir os elementos em linha */
+            margin: 0 20px; /* Espaçamento entre os elementos */
+        }
+        
+        .contact-info img {
+            display: block; /* Garantir que as imagens fiquem em uma linha */
+            margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            margin-top: 500px;
+            background-color: #343a40;
+            height: 400px;
+            
+        }
+        
+        .hr-footer {
+            border-color: #dee2e6;
+        }
+        
+        .footer h4 {
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 30px;
+            
+        }
+        
+        .footer p {
+            font-size: 16px;
+            color: #6c757d;
+            margin-bottom: 10px;
+            
+        }
+        
+        @media only screen and (max-width: 567px) {
+            .container{
+    width: 100%;
+    height: 400px;
+}
+
+/*menu*/
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    background-image: url(../IMG/banner.png);
+    
+    
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 40px;
+    width: 100%;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    border: 3px solid re;
+   margin-right: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+.divisao1{
+    width: 100%;
+    height: 1100px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 135px;
+    margin-top: -25px;
+    position:absolute;
+}
+
+.banner{
+    color: rgb(255, 255, 255);
+    font-size: 130px;
+    width: 100%;
+    margin-top: 400px;
+    height: 350px;
+    position: absolute;
+}
+
+.sla{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1000px;
+    height: 100px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.sla input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Bairro{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1300px;
+    height: 200px;
+    position: absolute;
+    margin-left: 212px;
+}
+
+.Bairro input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Estado{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 212px;
+}
+
+.Estado input{
+    width: 680px;
+    height: 60px;
+    font-size: 30px;
+    border: solid black;
+}
+
+.selEstado {
+    width: 675px;
+    height: 60px;
+    border: solid black;
+    font-size: 15px;
+}
+.pai {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 400px;
+}
+
+.container-filhas {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding-bottom: 10px; /* Prevents scrollbar overlap with content */
+    
+    
+}
+
+.filha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    flex: 0 0 auto; /* Ensures items do not shrink */
+    z-index: 100;
+}
+
+.filha img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filha .imagem-texto {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.filha .imagem-texto img {
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.filha .imagem-texto p {
+    margin: 0;
+}
+
+.filha h2 {
+    margin-top: 20px;
+    width: 10%;
+}
+
+.preço {
+    font-size: 80%;
+    text-decoration: line-through;
+}
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0086FF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: white;
+    font-size: 60%;
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .left-section img {
+        max-width: 60px;
+        margin-right: 20px;
+    }
+
+    .text-content {
+        text-align: left;
+    }
+
+    a{
+        margin-left: -120px;
+    }
+    .sobre{
+        margin-top: 100px;
+        width: 800px;
+        margin-left: -120px;
+    }
+    .sobre h1 {
+        text-align: center;/* Centraliza o texto */
+        margin-left: -30px;
+    }
+
+    .right-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-bar {
+        margin-right: 100px;
+        width: 10px;
+    }
+
+    .search-bar input {
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 2px solid white;
+        height: 30px;
+        width: 100px;
+    }
+
+    .search-bar button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .button {
+        height: 45px;
+        width: 70px;
+        border-radius: 5px;
+        border: 2px solid#e5e5e5;
+    }
+
+    main {
+        max-width: 1600px;
+        padding: 150px;
+        text-align: justify;
+        font-size: 25px;
+        margin: 30 auto; /* Centraliza horizontalmente */
+        display: flex; /* Ativa o modelo de layout flexível */
+        flex-direction: column; /* Coloca os itens em uma coluna */
+        height: calc(100vh - 100px); /* Altura igual à altura da janela - altura do cabeçalho */
+    }
+    h1 {
+        font-size: 32px;
+        margin-left: 0px;
+    }
+    .frango {
+        display: flex;
+        flex-direction: column; /* Altera para uma coluna em telas menores */
+        align-items: center; /* Centraliza o conteúdo na vertical */
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: rgb(175, 116, 27);
+        padding: 20px; /* Reduzindo o preenchimento */
+        margin: 10px 0; /* Espaçamento entre as seções */
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+    }
+    
+    .frango > div {
+        margin-bottom: 20px; /* Espaçamento entre as raças */
+    }
+    
+    .frango img {
+        max-width: 100%; /* Garante que as imagens se ajustem ao contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    .frango h2 {
+        text-align: center; /* Centraliza o texto */
+    }
+    
+    .frango p {
+        text-align: justify; /* Justifica o texto */
+        margin-top: 10px; /* Espaçamento superior */
+        font-size: 14px; /* Tamanho do texto */
+    }
+    
+    .divisao3 {
+        width: 100%;
+        height: 5200px;
+        
+    }
+        
+        .divisao1{
+            width: 100%;
+            height: 900px;
+            
+           
+        }
+
+        .divisao2{
+            width: 90%;
+            height: 1600px;
+            
+            
+        }
+
+
+        .divisao4 {
+            width: 100%;
+            height:-20px;
+            text-align: center; /* Alinhar o conteúdo no centro */
+        }
+        
+        .contact-info {
+            display: inline-block; /* Exibir os elementos em linha */
+            margin: 0 20px; /* Espaçamento entre os elementos */
+        }
+        
+        .contact-info img {
+            display: block; /* Garantir que as imagens fiquem em uma linha */
+            margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+            width: 100px;
+
+        }
+        .contact-info h2 {
+            width: 80px;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            margin-top: 500px;
+            background-color: #343a40;
+            height: 400px;
+            
+        }
+        
+        .hr-footer {
+            border-color: #dee2e6;
+        }
+        
+        .footer h4 {
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 30px;
+            
+        }
+        
+        .footer p {
+            font-size: 16px;
+            color: #6c757d;
+            margin-bottom: 10px;
+          }
+
+          }
+
+          @media only screen and (max-width: 768px) {
+            .container{
+    width: 100%;
+    height: 400px;
+}
+
+/*menu*/
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    background-image: url(../IMG/banner.png);
+    
+    
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: 40px;
+    width: 100%;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    border: 3px solid re;
+    margin-right: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+.divisao1{
+    width: 100%;
+    height: 1100px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 135px;
+    margin-top: -25px;
+    position:absolute;
+}
+
+.banner{
+    color: rgb(255, 255, 255);
+    font-size: 130px;
+    width: 100%;
+    margin-top: 400px;
+    height: 300px;
+    position: absolute;
+}
+
+.sla{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1000px;
+    height: 100px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.sla input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Bairro{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1300px;
+    height: 200px;
+    position: absolute;
+    margin-left: 212px;
+}
+
+.Bairro input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Estado{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 1500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 212px;
+}
+
+.Estado input{
+    width: 680px;
+    height: 60px;
+    font-size: 30px;
+    border: solid black;
+}
+
+.selEstado {
+    width: 675px;
+    height: 60px;
+    border: solid black;
+    font-size: 15px;
+}
+.pai {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 400px;
+}
+
+.container-filhas {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    padding-bottom: 10px; /* Prevents scrollbar overlap with content */
+    
+    
+}
+
+.filha {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: left;
+    flex: 0 0 auto; /* Ensures items do not shrink */
+    z-index: 100;
+}
+
+.filha img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filha .imagem-texto {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.filha .imagem-texto img {
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.filha .imagem-texto p {
+    margin: 0;
+}
+
+.filha h2 {
+    margin-top: 20px;
+    width: 10%;
+}
+
+.preço {
+    font-size: 80%;
+    text-decoration: line-through;
+}
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #0086FF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: white;
+    font-size: 60%;
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .left-section img {
+        max-width: 60px;
+        margin-right: 20px;
+    }
+
+    .text-content {
+        text-align: left;
+    }
+
+    a{
+        margin-left: -120px;
+    }
+    .sobre{
+        margin-top: 100px;
+        width: 800px;
+        margin-left: -120px;
+    }
+    .sobre h1 {
+        text-align: center;/* Centraliza o texto */
+        margin-left: -30px;
+    }
+
+    .right-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-bar {
+        margin-right: 100px;
+        width: 10px;
+    }
+
+    .search-bar input {
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        border: 2px solid white;
+        height: 30px;
+        width: 100px;
+    }
+
+    .search-bar button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .button {
+        height: 45px;
+        width: 70px;
+        border-radius: 5px;
+        border: 2px solid#e5e5e5;
+    }
+
+    main {
+        max-width: 1600px;
+        padding: 150px;
+        text-align: justify;
+        font-size: 25px;
+        margin: 30 auto; /* Centraliza horizontalmente */
+        display: flex; /* Ativa o modelo de layout flexível */
+        flex-direction: column; /* Coloca os itens em uma coluna */
+        height: calc(100vh - 100px); /* Altura igual à altura da janela - altura do cabeçalho */
+    }
+    h1 {
+        font-size: 32px;
+        margin-left: 0px;
+    }
+    .frango {
+        display: flex;
+        flex-direction: column; /* Altera para uma coluna em telas menores */
+        align-items: center; /* Centraliza o conteúdo na vertical */
+        border: 3px solid black;
+        border-radius: 5px;
+        background-color: rgb(175, 116, 27);
+        padding: 20px; /* Reduzindo o preenchimento */
+        margin: 10px 0; /* Espaçamento entre as seções */
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 0px;
+    }
+    
+    .frango > div {
+        margin-bottom: 20px; /* Espaçamento entre as raças */
+    }
+    
+    .frango img {
+        max-width: 100%; /* Garante que as imagens se ajustem ao contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    .frango h2 {
+        text-align: center; /* Centraliza o texto */
+    }
+    
+    .frango p {
+        text-align: justify; /* Justifica o texto */
+        margin-top: 10px; /* Espaçamento superior */
+        font-size: 14px; /* Tamanho do texto */
+    }
+    
+    .divisao3 {
+        width: 100%;
+        height: 5200px;
+        
+    }
+        
+        .divisao1{
+            width: 100%;
+            height: 900px;
+            
+           
+        }
+
+        .divisao2{
+            width: 90%;
+            height: 1600px;
+            
+            
+        }
+
+
+        .divisao4 {
+            width: 100%;
+            height:-20px;
+            text-align: center; /* Alinhar o conteúdo no centro */
+        }
+        
+        .contact-info {
+            display: inline-block; /* Exibir os elementos em linha */
+            margin: 0 20px; /* Espaçamento entre os elementos */
+        }
+        
+        .contact-info img {
+            display: block; /* Garantir que as imagens fiquem em uma linha */
+            margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+            width: 100px;
+
+        }
+        .contact-info h2 {
+            width: 80px;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            margin-top: 500px;
+            background-color: #343a40;
+            height: 400px;
+            
+        }
+        
+        .hr-footer {
+            border-color: #dee2e6;
+        }
+        
+        .footer h4 {
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 30px;
+            
+        }
+        
+        .footer p {
+            font-size: 16px;
+            color: #6c757d;
+            margin-bottom: 10px;
+          }
+
+          }
